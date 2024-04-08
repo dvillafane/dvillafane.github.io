@@ -1,0 +1,462 @@
+/* Reset de estilos por defecto para todos los elementos */
+* {
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina rellenos */
+    box-sizing: border-box; /* Ajusta el modelo de caja */
+}
+
+/* Estilos generales para el cuerpo de la página */
+body {
+    background-color: #8EADD5; /* Color de fondo */
+    font-family: 'Montserrat', sans-serif; /* Fuente principal */
+    color:#272D38; /* Color del texto */
+}
+
+/* Estilos para pantallas de tamaño grande (escritorio) */
+@media screen and (min-width: 601px) {
+    
+    /* Estilos para la barra de navegación en escritorio*/
+    .navbarE {
+        display: flex; /* Usa el modelo de caja flexible */
+        justify-content: space-around; /* Distribuye los elementos horizontalmente */
+        align-items: center; /* Centra verticalmente los elementos */
+        padding: 46px 20px 0; /* Espaciado interno */
+    }
+
+    /* Estilos para el logotipo dentro de la barra de navegación */
+    .logo img {
+        width: 100%; /* Ancho máximo */
+        height: auto; /* Altura automática */
+    }
+
+    /* Estilos para la barra de navegación en movil*/
+    .navbarM {
+        display: none; /* Oculta la barra de navegación */
+    }
+
+    /* Estilos para el contenedor del hero en escritorio */
+    .heroE {
+        display: flex; /* Usa el modelo de caja flexible */
+        justify-content: space-around; /* Distribuye los elementos horizontalmente */
+        align-items: center; /* Centra verticalmente los elementos */
+        padding: 70px 100px 0; /* Espaciado interno */
+        color: #272D38; /* Color del texto */
+    }
+    
+    /* Estilos para el contenido del hero en escritorio */
+    .hero-content h1, .hero-content p, .hero-content a {
+        margin-left: 50px; /* Margen izquierdo */
+        margin-bottom: 20px; /* Margen inferior */
+    }
+
+    /* Estilos para la imagen dentro del contenedor del hero en escritorio */
+    .heroE img {
+        max-width: 50%; /* Ancho máximo */
+        height: auto; /* Altura automática */
+    }
+
+    /* Estilos para el contenedor del hero en movil */
+    .heroM {
+        display: none; /* Oculta el contenedor del hero */
+    }
+
+    /* Estilos para el contenedor de empresas en escritorio */
+    .companiesE {
+        display: flex; /* Usa el modelo de caja flexible */
+        justify-content: space-around; /* Distribuye los elementos horizontalmente */
+        align-items: center; /* Centra verticalmente los elementos */
+        padding: 184px 0 0; /* Espaciado interno */
+        color: #272D38; /* Color del texto */
+    }
+
+    /* Estilos para las imágenes dentro del contenedor de empresas en escritorio */
+    .companiesE img {
+        max-width: 100%; /* Ancho máximo */
+        height: auto; /* Altura automática */
+    }
+
+    /* Estilos para el contenedor de empresas en movil */
+    .companiesM {
+        display: none; /* Oculta el contenedor de empresas */
+    }
+
+    /* Estilos para el contenedor de branding en escritorio */
+    .brandingE {
+        display: flex; /* Usa el modelo de caja flexible */
+        justify-content: space-around; /* Distribuye los elementos horizontalmente */
+        align-items: center; /* Centra verticalmente los elementos */
+        padding: 136px 50px 0; /* Espaciado interno */
+        color: #272D38; /* Color del texto */
+    }
+
+    /* Estilos para las imágenes dentro del contenedor de branding en escritorio */
+    .brandingE img {
+        max-width: 50%; /* Ancho máximo */
+        height: auto; /* Altura automática */
+    }
+
+    /* Estilos para el contenido de branding en escritorio */
+    .branding-content {
+        margin-left: 100px; /* Margen izquierdo */
+    }
+
+    /* Estilos para el contenedor de branding en movil*/
+    .brandingM {
+        display: none; /* Oculta el contenedor de branding */
+    }
+
+    /* Estilos para el contenedor de personalización en escritorio */
+    .customE {
+        display: flex; /* Usa el modelo de caja flexible */
+        justify-content: space-around; /* Distribuye los elementos horizontalmente */
+        align-items: center; /* Centra verticalmente los elementos */
+        padding: 137px 50px 0; /* Espaciado interno */
+        color: #272D38; /* Color del texto */
+    }
+
+    /* Estilos para el contenido de personalización en escritorio*/
+    .custom-content{
+        margin-left: 50px; /* Margen izquierdo */
+        margin-right: 50px; /* Margen derecho */
+    }
+
+    /* Estilos para las imágenes dentro del contenedor de personalización en escritorio*/
+    .customE img {
+        max-width: 50%; /* Ancho máximo */
+        height: auto; /* Altura automática */
+        margin-right: 50px; /* Margen derecho */
+    }
+
+    /* Estilos para el contenedor de personalización en movil*/
+    .customM {
+        display: none; /* Oculta el contenedor de personalización */
+    }
+
+    /* Estilos para el contenedor de contacto en escritorio */
+    .contactE {
+        display: flex; /* Usa el modelo de caja flexible */
+        justify-content: space-around; /* Distribuye los elementos horizontalmente */
+        align-items: center; /* Centra verticalmente los elementos */
+        color: #272D38; /* Color del texto */
+        padding: 25px 50px 0; /* Espaciado interno */
+    }
+
+    /* Estilos para las imágenes dentro del contenedor de contacto en escritorio*/
+    .contactE img {
+        max-width: 50%; /* Ancho máximo */
+        height: auto; /* Altura automática */
+    }
+
+    /* Estilos para el contenido de contacto en escritorio */
+    .contact-content {
+        margin-left: 10px; /* Margen izquierdo */
+    }
+
+    /* Estilos para el contenedor de contacto en movil*/
+    .contactM {
+        display: none; /* Oculta el contenedor de contacto */
+    }
+
+    /* Estilos para el footer en escritorio */
+    .footerE {
+        display: flex; /* Usa el modelo de caja flexible */
+        color: #272D38; /* Color del texto */
+        justify-content: space-around; /* Distribuye los elementos horizontalmente */
+        text-align: left; /* Alineación del texto */
+        padding: 140px 188px; /* Espaciado interno */
+    }
+
+    /* Estilos para los elementos en las secciones del footer en escritorio */
+    .footer-resources, .footer-company, .footer-social{
+        margin-left: 127px; /* Margen izquierdo */
+    }
+
+    /* Estilos para el párrafo dentro de las secciones del footer en escritorio */
+    .footer-digital p, .footer-resources p, .footer-company p, .footer-social p{
+        margin-top: 25px; /* Margen superior */
+    }
+
+    /* Estilos para el footer en movil) */
+    .footerM {
+        display: none; /* Oculta el pie de página */
+    }
+
+    /* Estilos para el botón */
+    .btn {
+        display: inline-block; /* Hace que el botón se muestre en línea */
+        padding: 10px 20px; /* Espaciado interno */
+        background-color: #8EADD5; /* Color de fondo */
+        color: #fff; /* Color del texto */
+        text-decoration: none; /* Quita el subrayado */
+        border-radius: 5px; /* Borde redondeado */
+    }
+
+    /* Estilos al pasar el mouse sobre el botón */
+    .btn:hover {
+        background-color: #5a8ed2; /* Cambia el color de fondo al pasar el mouse */
+    }
+
+    /* Títulos principales */
+    h1 {
+        font-size:5vw; /* Modificar el tamaño del texto h1 ajustado al ancho de la ventana*/
+    }
+
+    /* Títulos secundarios */
+    h2 {
+        font-size: 1.9vw; /* Modificar el tamaño del texto h2 ajustado al ancho de la ventana */ 
+    }
+
+    /* Títulos terciarios */
+    h3 {
+        font-size: 1.6vw; /* Modificar el tamaño del texto h3 ajustado al ancho de la ventana*/ 
+    }
+
+    /* Párrafos */
+    p {
+        font-size:1.3vw; /* Modificar el tamaño del texto de párrafo ajustado al ancho de la ventana*/
+    }
+
+    /* Enlaces */
+    a {
+        font-size: 1vw; /* Modificar el tamaño del texto de enlaces ajustado al ancho de la ventana*/
+    }
+}
+
+
+/* Estilos para pantallas de tamaño pequeño (móviles) */
+@media screen and (max-width: 600px) {
+    
+    /* Estilos para la barra de navegación en movil */
+    .navbarM {
+        display: flex; /* Usa el modelo de caja flexible */
+        flex-direction: column; /* Dirección de los elementos: columna */
+        align-items: center; /* Centra verticalmente los elementos */
+        text-align: center; /* Alineación del texto */
+    }
+    
+    /* Estilos para el logotipo dentro de la barra de navegación en movil */
+    .logo {
+        margin-top: 20px; /* Margen superior */
+    }
+
+    /* Estilos para la lista de enlaces de navegación en movil */
+    .nav-links {
+        list-style: none; /* Quita los estilos de lista predeterminados */
+    }
+    
+    /* Estilos para los elementos de la lista de enlaces de navegación en movil */
+    .nav-links li {
+        margin: 18px 0 ; /* Margen superior e inferior */
+    }
+    
+    /* Estilos para los enlaces dentro de la lista de enlaces de navegación en movil */
+    .nav-links li a {
+        text-decoration: none; /* Quita el subrayado */
+        color: #272D38; /* Color del texto */
+        font-size: 17px; /* Tamaño del texto */
+    }
+
+    /* Estilos para la barra de navegación en escritorio */
+    .navbarE {
+        display: none;  /* Oculta la barra de navegación */
+    }
+    
+    /* Estilos para el contenedor del hero en movil*/
+    .heroM {
+        display: flex; /* Usa el modelo de caja flexible */
+        flex-direction: column; /* Dirección de los elementos: columna */
+        align-items: center; /* Centra horizontalmente los elementos */
+        text-align: center; /* Centra horizontalmente el texto */
+    }
+    
+    /* Estilos para el contenido del hero en movil */
+    .hero-content {
+        margin-bottom: 60px; /* Espacio entre el contenido y la imagen */
+    }
+
+    /* Estilos para los elementos dentro del contenido del hero en movil */
+    .hero-content h1, .hero-content p, .hero-content a {
+        margin-top: 25px; /* Margen superior */
+        margin-left: 10px; /* Margen izquierdo */
+        margin-right: 10px; /* Margen derecho */
+    }
+    
+    /* Estilos para la imagen dentro del contenedor del hero en movil */
+    .heroM img {
+        max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    }
+    
+    /* Estilos para el contenedor del héroe en escritorio */
+    .heroE {
+        display: none; /* Oculta el contenedor del hero */
+    }
+
+    /* Estilos para el contenedor de empresas en movil*/
+    .companiesM {
+        display: flex; /* Usa el modelo de caja flexible */
+        justify-content: space-around; /* Distribuye los elementos horizontalmente */
+        align-items: center; /* Centra verticalmente los elementos */
+        padding: 111px 0 0 0; /* Espaciado interno */
+        color: #272D38; /* Color del texto */
+    }
+
+    /* Estilos para las imágenes dentro del contenedor de empresas en movil */
+    .companiesM img {
+        max-width: 100%; /* Ancho máximo */
+        height: auto; /* Altura automática */
+    }
+
+    /* Estilos para el contenedor de empresas en escritorio */
+    .companiesE{
+        display: none; /* Oculta el contenedor de empresas */
+    }
+
+    /* Estilos para el contenedor de branding en movil */
+    .brandingM {
+        display: flex; /* Usa el modelo de caja flexible */
+        flex-direction: column; /* Dirección de los elementos: columna */
+        align-items: center; /* Centra horizontalmente los elementos */
+        text-align: center; /* Alineación del texto */
+        padding: 88px 0 0 0; /* Espaciado interno */
+    }
+    
+    /* Estilos para el contenido de branding en movil*/
+    .branding-content {
+        display: block; /* Muestra como bloque */
+        margin-bottom: 60px; /* Espacio entre el contenido y la imagen */
+    }
+
+    /* Estilos para los elementos dentro del contenido de branding en movil */
+    .branding-content h2, .branding-content p {
+        margin-top: 25px; /* Margen superior */
+        margin-left: 10px; /* Margen izquierdo */
+        margin-right: 10px; /* Margen derecho */
+    }
+
+    /* Estilos para el contenedor de branding en escritorio */
+    .brandingE{
+        display: none; /* Oculta el contenedor de branding */
+    }
+
+    /* Estilos para el contenedor de personalización en movil*/
+    .customM {
+        display: flex; /* Usa el modelo de caja flexible */
+        flex-direction: column; /* Dirección de los elementos: columna */
+        align-items: center; /* Centra horizontalmente los elementos */
+        text-align: center; /* Alineación del texto */
+        padding: 90px 0 0 0; /* Espaciado interno */
+    }
+
+    /* Estilos para el contenido de personalización en movil */
+    .custom-content {
+        display: block;  /* Muestra como bloque */
+        margin-bottom: 60px; /* Espacio entre el contenido y la imagen */
+    }
+
+    /* Estilos para los elementos dentro del contenido de personalización en movil */
+    .custom-content h2, .custom-content p {
+        margin-top: 25px; /* Margen superior */
+        margin-left: 10px; /* Margen izquierdo */
+        margin-right: 10px; /* Margen derecho */
+    }
+
+    /* Estilos para el contenedor de personalización en escritorio */
+    .customE {
+        display: none; /* Oculta el contenedor de personalización */
+    }
+
+    /* Estilos para el contenedor de contacto en movil */
+    .contactM {
+        display: flex; /* Usa el modelo de caja flexible */
+        flex-direction: column; /* Dirección de los elementos: columna */
+        align-items: center; /* Centra horizontalmente los elementos */
+        text-align: center; /* Alineación del texto */
+        padding: 60px 0 0 0; /* Espaciado interno */
+    }
+
+    /* Estilos para los elementos dentro del contenido de contacto en movil */
+    .contact-content h2, .contact-content a{
+        margin: 30px 10px; /* Margen en todas las direcciones */
+    }
+
+    /* Estilos para los párrafos dentro del contenido de contacto en movil */
+    .contact-content p{
+        margin-top: 5px; /* Margen superior */   
+    }
+
+    /* Estilos para el contenedor de contacto en escritorio */
+    .contactE {
+        display: none;
+    }
+
+    /* Estilos para el footer en movil */
+    .footerM {
+        color: #272D38; /* Color del texto */
+        text-align: center; /* Alineación del texto */
+        padding: 130px 0 0 0; /* Espaciado interno */
+    }
+
+    /* Estilos para los elementos de los diferentes grupos en el footer en movil */
+    .footer-digital, .footer-resources, .footer-company, .footer-social{
+        margin-bottom: 55px; /* Margen inferior */
+    }
+
+    /* Estilos para los párrafos de los diferentes grupos en el footer en movil */
+    .footer-digital p, .footer-resources p, .footer-company p, .footer-social p{
+        margin-top: 25px; /* Margen superior */
+    }
+
+    /* Estilos para el párrafo de derechos de autor en el footer en moovil */
+    .footer-copyright p{
+        margin-top: 100px; /* Margen superior */
+        font-size: 14px; /* Tamaño de fuente */
+    }
+
+    /* Estilos para el footer en escritorio */
+    .footerE {
+        display: none; /* Oculta el pie de página */
+    }
+
+    /* Estilos para el botón */
+    .btn {
+        display: inline-block; /* Hace que el botón se muestre en línea */
+        padding: 10px 20px; /* Espaciado interno */
+        background-color: #272D38; /* Color de fondo */
+        color: #fff; /* Color del texto */
+        text-decoration: none; /* Quita el subrayado */
+        border-radius: 5px; /* Borde redondeado */
+    }
+
+    /* Estilos al pasar el mouse sobre el botón */
+    .btn:hover {
+        background-color: #5a8ed2; /* Cambia el color de fondo al pasar el mouse */
+    }
+
+    /* Títulos principales */
+    h1 {
+        font-size:7vw; /* Modificar el tamaño del texto h1 ajustado al ancho de la ventana*/
+    }
+
+    /* Títulos secundarios */
+    h2 {
+        font-size: 6.7vw; /* Modificar el tamaño del texto h2 ajustado al ancho de la ventana */ 
+    }
+
+    /* Títulos terciarios */
+    h3 {
+        font-size: 4vw; /* Modificar el tamaño del texto h3 ajustado al ancho de la ventana*/ 
+    }
+
+    /* Párrafos */
+    p {
+        font-size:3.5vw; /* Modificar el tamaño del texto de párrafo ajustado al ancho de la ventana*/
+    }
+
+    /* Enlaces */
+    a {
+        font-size: 2.5vw; /* Modificar el tamaño del texto de enlaces ajustado al ancho de la ventana*/
+    }
+
+}
+
+/* Hecho por: Diego Villafañe */
