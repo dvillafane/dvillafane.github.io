@@ -1,0 +1,43 @@
+/* Estilos para el elemento main */
+main {
+  padding: 20px;
+  /* Añade un relleno interno de 20px al elemento main */
+}
+
+/* Estilos para el elemento con la clase containerTitle */
+.containerTitle {
+  margin-top: 100px;
+  /* Establece un margen superior de 100px para el elemento con la clase containerTitle */
+}
+
+/* Establece un margen inferior para el contenido para evitar que el footer se solape */
+.container {
+  margin-bottom: 10px;
+  /* Establece un margen inferior de 10px para el elemento con la clase container */
+}
+
+/* Estilos para las imágenes de las tarjetas */
+.card-img-top {
+  width: 100%;
+  /* Establece el ancho de la imagen al 100% del contenedor */
+  height: 100%;
+  /* Establece la altura de la imagen al 100% del contenedor */
+  object-fit: cover;
+  /* Ajusta la imagen dentro del contenedor manteniendo la relación de aspecto */
+}
+
+/* Estilos para el margen superior de 6rem */
+.mt-6 {
+  margin-top: 6rem !important;
+  /* Establece un margen superior de 6rem con prioridad importante */
+}
+
+/* Ajusta el footer al fondo de la página */
+.footer {
+  position: fixed;
+  /* Fija el footer en su posición */
+  bottom: 0;
+  /* Coloca el footer en la parte inferior de su contenedor */
+  width: 100%;
+  /* Establece el ancho del footer al 100% del contenedor */
+}
