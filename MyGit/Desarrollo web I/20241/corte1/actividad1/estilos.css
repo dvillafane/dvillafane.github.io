@@ -1,0 +1,127 @@
+/* index*/
+
+  /*reglas de estilo al cuerpo del documento*/
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /*reglas de estilo al encabezado*/
+  header {
+    background-color: #447;
+    padding: 10px 0;
+  }
+  
+  /*reglas de estilo a la lista no ordenada dentro de la barra de navegación*/
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /*reglas de estilo a los elementos de lista dentro de la barra de navegación*/
+  nav ul li {
+    display: inline;
+  }
+  
+  /*reglas de estilo a los elementos de lista dentro de la barra de navegación*/
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /*reglas de estilo a la sección principal del contenido*/
+  main {
+    padding: 20px;
+  }
+  
+  /*reglas de estilo a la sección que contiene las tarjetas de equipo*/
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /*reglas de estilo a cada tarjeta de equipo*/
+  .card {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  /*reglas de estilo a las imágenes dentro de las tarjetas de equipo*/
+  .card img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /*reglas de estilo al pie de página*/
+  footer {
+    background-color: #447;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+/* contactos */
+
+  /*reglas de estilo a la sección de contacto*/
+  .contacto {
+    padding: 20px;
+  }
+  
+  /*reglas de estilo al título principal dentro de la sección de contacto*/
+  .contacto h1 {
+    margin-bottom: 10px;
+  }
+
+  /*reglas de estilo a los párrafos dentro de la sección de contacto*/
+  .contacto p {
+    margin-bottom: 20px;
+  }
+  
+  /*reglas de estilo al formulario dentro de la sección de contacto*/
+  .contacto form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /*reglas de estilo a las etiquetas de los campos del formulario dentro de la sección de contacto*/
+  .contacto label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /*reglas de estilo a los campos de entrada de texto y área de texto dentro del formulario*/
+  .contacto input[type="text"],
+  .contacto input[type="email"],
+  .contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /*reglas de estilo específicas a las áreas de texto dentro del formulario*/
+  .contacto textarea {
+    height: 150px;
+  }
+  
+  /*reglas de estilo al botón de envío dentro del formulario*/
+  .contacto button {
+    background-color: #447;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /*reglas de estilo al botón de envío cuando el cursor está sobre él*/
+  .contacto button:hover {
+    background-color: #555;
+  }
+  
+/* Hecho por Diego Villafañe */
